@@ -18,7 +18,7 @@ const GH_OWNER   = process.env.GITHUB_OWNER;
 const GH_REPO    = process.env.GITHUB_REPO;
 
 function geminiURL() {
-  return `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`;
+  return `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GEMINI_API_KEY}`;
 }
 
 function todayAEST() { return new Date().toLocaleDateString('sv-SE',{timeZone:'Australia/Sydney'}); }
